@@ -442,7 +442,7 @@ func (s *StatusGetter) LoadSearchResults() error {
 				err = nil
 			} else {
 				err = api.GraphQLError{
-					GQLError: ghAPI.GQLError{
+					GQLError: &ghAPI.GQLError{
 						Errors: gqlErrors,
 					},
 				}

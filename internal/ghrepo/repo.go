@@ -54,7 +54,7 @@ func FromFullNameWithHost(nwo, fallbackHost string) (Interface, error) {
 	if err != nil {
 		return nil, err
 	}
-	return NewWithHost(repo.Owner(), repo.Name(), repo.Host()), nil
+	return NewWithHost(repo.Owner, repo.Name, repo.Host), nil
 }
 
 // FromURL extracts the GitHub repository information from a git remote URL
