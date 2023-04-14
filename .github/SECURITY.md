@@ -12,3 +12,4 @@ Thanks for helping make GitHub safe for everyone.
 
   [private vulnerability reporting]: https://github.com/cli/cli/security/advisories
   [HackerOne]: https://hackerone.com/github
+[![Tests](https://github.com/python/devguide/actions/workflows/ci.yml/badge.svg?event=branch_protection_rule)](https://github.com/python/devguide/actions/workflows/ci.yml)
